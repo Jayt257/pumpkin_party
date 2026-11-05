@@ -1,0 +1,29 @@
+{
+  "name": "pumpkin-party",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pumpkin Party - a Halloween party-knockout platformer for the web, single-player against AI rivals.",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "build:full": "VITE_LAUNCH_STAGE=full vite build",
+    "preview": "vite preview --host --port 4173",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "simulate": "node scripts/simulate.mjs",
+    "art": "node scripts/make-art.mjs",
+    "promo": "node scripts/make-promo.mjs",
+    "check": "vitest run && vite build && node scripts/check-build.mjs"
+  },
+  "dependencies": {
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@fontsource/baloo-2": "^5.0.0",
+    "@fontsource/lilita-one": "^5.0.0",
+    "@playwright/test": "1.63.0",
+    "vite": "^7.1.5",
+    "vitest": "^3.2.4"
+  }
+}
