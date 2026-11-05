@@ -26,6 +26,12 @@ These must not ship. `tests/terms.test.js` fails if any of them appears in the s
 | Trick or Treat | The choice at reveals | Common phrase | No search made. Generic Halloween phrase |
 | Graveyard Gang | Shop bundle, replacing "Monster Mash" | Web search | No game or trademark found. *The Graveyard Gang* is a 1993 children's novel by James Duffy, which is a different field |
 
+| Moon Gravity | Curse | Web search | Generic. Used descriptively by mods and small games, including a "Moon Gravity" option in an itch.io game called MatteoMelon. No sign of a brand |
+| Lantern Fog | Curse | Web search | Nothing found under this name |
+| Hammer Frenzy | Curse | Web search | No game found under this exact name. *Frenzy* (1982) and several hammer-themed games exist, but the name is different |
+| Giant Heads, Tiny Bodies, Slippery Slime | Curses | Plain descriptions | No search made. Low risk |
+| Castle Courtyard | Lobby | Plain description | No search made. Low risk |
+
 ## Still to check
 
-Names added in later milestones will be listed here as they ship: curses, new round names, monster powers, ranks, titles and event names.
+Names added in later milestones will be listed here as they ship: new round names, monster powers, ranks, titles and event names.

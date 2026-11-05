@@ -13,6 +13,7 @@
     "test:e2e": "playwright test",
     "simulate": "node scripts/simulate.mjs",
     "art": "node scripts/make-art.mjs",
+    "perf": "node scripts/perf.mjs",
     "promo": "node scripts/make-promo.mjs",
     "check": "vitest run && vite build && node scripts/check-build.mjs"
   },
